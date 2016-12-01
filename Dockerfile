@@ -1,4 +1,4 @@
-FROM node:7.2.0
+FROM node:6.9.1
 MAINTAINER Wisu Suntoyo <bigwisu@gmail.com>
 
 RUN npm install pm2 -g
