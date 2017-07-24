@@ -1,6 +1,7 @@
-FROM node:6.10.3
+FROM node:6.11.1
 MAINTAINER Wisu Suntoyo <bigwisu@gmail.com>
 
+RUN apt-get update -y && apt-get install rsync -y
 RUN npm install pm2 -g
 
 VOLUME ["/app"]
