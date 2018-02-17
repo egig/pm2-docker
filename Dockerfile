@@ -1,4 +1,4 @@
-FROM node:8.7.0
+FROM node:8.9.4
 MAINTAINER Wisu Suntoyo <bigwisu@gmail.com>
 
 RUN apt-get update -y && apt-get install rsync -y
