@@ -1,5 +1,5 @@
-FROM node:8.9.4
-MAINTAINER Wisu Suntoyo <bigwisu@gmail.com>
+FROM node:10.16.0
+MAINTAINER Egi Gundari <egigundari@gmail.com>
 
 RUN apt-get update -y && apt-get install rsync -y
 RUN npm install pm2 -g
